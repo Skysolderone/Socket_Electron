@@ -1,0 +1,14 @@
+{
+  "name": "Socket_Electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:Skysolderone/Socket_Electron.git",
+  "author": "wws",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.0.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
