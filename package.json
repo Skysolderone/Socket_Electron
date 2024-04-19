@@ -6,9 +6,10 @@
   "author": "wws",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^30.0.0"
+    "electron": "^30.0.0",
+    "nodemon": "^3.1.0"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "nodemon --watch main.js --exec electron ."
   }
 }
